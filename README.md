@@ -53,9 +53,13 @@ Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ai
 Estruturas pastas (diretórios) desse Repositório
 
 Android - Contem a implementação do aplicativo "Opa!" para o sistema operacional Android (Escrita em Java) 
+
 Docs - Contém documentação sobre o Aplicativo Opa! além de Screenshots em iOS e Android
+
 iOS - Contém a implementação do "Opa!" para versão iOS (Escrita em Objective C)
+
 OpsAdmin - Contém a implementação do lado Servidor (Backend) do "Opa!" escrita em PHP
+
 Titanium - Contém a implementação do Opa! para iOS e Android escrita em JavaScript.
 
 
