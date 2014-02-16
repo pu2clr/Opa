@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="Ops-warPU" transaction-type="JTA">
+    <jta-data-source>caratti01</jta-data-source>
+    <class>br.eti.caratti.ops.entity.TopSixService</class>
+    <class>br.eti.caratti.ops.entity.AllServices</class>
+    <class>br.eti.caratti.ops.entity.Device</class>
+    <class>br.eti.caratti.ops.entity.Ocorrencia</class>
+    <class>br.eti.caratti.ops.entity.Service</class>
+    <class>br.eti.caratti.ops.entity.ServiceProviders</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <validation-mode>NONE</validation-mode>
+    <properties>
+    </properties>
+  </persistence-unit>
+</persistence>

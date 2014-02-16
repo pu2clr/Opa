@@ -1,0 +1,91 @@
+10
+
+dir
+23
+svn://caratti.info/caratti/desenvolvimento/Multiplataforma/Ops/ServerSide/Ops/Ops-war
+svn://caratti.info/caratti/desenvolvimento
+
+
+
+2011-10-05T01:12:44.663627Z
+23
+caratti
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+45f7a2fb-1cef-456c-b1f1-8d6f54da5906
+
+build
+dir
+
+
+
+delete
+
+build.xml
+file
+22
+
+
+
+2011-09-19T17:19:30.000000Z
+873cc3de0419a511660c7fabb86a064d
+2011-09-24T00:54:20.769740Z
+22
+caratti
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3424
+
+dist
+dir
+
+
+
+delete
+
+nbproject
+dir
+
+setup
+dir
+
+src
+dir
+
+test
+dir
+
+web
+dir
+

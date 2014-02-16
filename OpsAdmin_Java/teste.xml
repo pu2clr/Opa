@@ -1,0 +1,15 @@
+
+
+ <?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header/>
+    <S:Body>
+        <ns2:sendOpa xmlns:ns2="http://soap.caratti.eti.br/">
+            <deviceId>d872208a37bd877b7a1f2e20eb92b40b20cd22a6</deviceId>
+            <latitude>-15.7613°</latitude>
+            <longitude>-47.881°</longitude>
+            <serviceName>Polícia Militar</serviceName>
+            <message>Polícia Militar - iPad de Ricardo Caratti:[d872208a37bd877b7a1f2e20eb92b40b20cd22a6]</message>
+        </ns2:sendOpa>
+    </S:Body>
+</S:Envelope>

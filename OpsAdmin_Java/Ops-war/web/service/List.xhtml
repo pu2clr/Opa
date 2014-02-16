@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+    <ui:composition template="/template.xhtml">
+        <ui:define name="title">
+            <h:outputText value="#{bundle.ListServiceTitle}"></h:outputText>
+        </ui:define>
+        <ui:define name="body">
+            <h:form styleClass="jsfcrud_list_form">
+                <h:panelGroup id="messagePanel" layout="block">
+                    <h:messages errorStyle="color: red" infoStyle="color: green" layout="table"/>
+                </h:panelGroup>
+                <h:outputText escape="false" value="#{bundle.ListServiceEmpty}" rendered="#{serviceController.items.rowCount == 0}"/>
+                <h:panelGroup rendered="#{serviceController.items.rowCount > 0}">
+                    <h:outputText value="#{serviceController.pagination.pageFirstItem + 1}..#{serviceController.pagination.pageLastItem + 1}/#{serviceController.pagination.itemsCount}"/>&nbsp;
+                    <h:commandLink action="#{serviceController.previous}" value="#{bundle.Previous} #{serviceController.pagination.pageSize}" rendered="#{serviceController.pagination.hasPreviousPage}"/>&nbsp;
+                    <h:commandLink action="#{serviceController.next}" value="#{bundle.Next} #{serviceController.pagination.pageSize}" rendered="#{serviceController.pagination.hasNextPage}"/>&nbsp;
+                    <h:dataTable value="#{serviceController.items}" var="item" border="0" cellpadding="2" cellspacing="0" rowClasses="jsfcrud_odd_row,jsfcrud_even_row" rules="all" style="border:solid 1px">
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_serviceId}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.serviceId}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_serviceType}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.serviceType}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_serviceName}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.serviceName}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_description}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.description}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_qtdCases}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.qtdCases}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.ListServiceTitle_iconName}"/>
+                            </f:facet>
+                            <h:outputText value="#{item.iconName}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">
+                                <h:outputText value="&nbsp;"/>
+                            </f:facet>
+                            <h:commandLink action="#{serviceController.prepareView}" value="#{bundle.ListServiceViewLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{serviceController.prepareEdit}" value="#{bundle.ListServiceEditLink}"/>
+                            <h:outputText value=" "/>
+                            <h:commandLink action="#{serviceController.destroy}" value="#{bundle.ListServiceDestroyLink}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:panelGroup>
+                <br />
+                <h:commandLink action="#{serviceController.prepareCreate}" value="#{bundle.ListServiceCreateLink}"/>
+                <br />
+                <br />
+                <h:commandLink value="#{bundle.ListServiceIndexLink}" action="/index" immediate="true" />
+            </h:form>
+        </ui:define>
+    </ui:composition>
+
+</html>

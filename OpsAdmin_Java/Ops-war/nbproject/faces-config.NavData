@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="service/Create.xhtml" x="650" y="300" zoom="false"/>
+        <Node id="index.jsp" x="650" y="150" zoom="true"/>
+        <Node id="index.xhtml" x="900" y="150" zoom="true"/>
+        <Node id="template.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="location.jsp" x="150" y="600" zoom="true"/>
+        <Node id="service/List.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="test-resbeans.html" x="150" y="150" zoom="false"/>
+        <Node id="service/View.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="service/Edit.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="upload.jsp" x="400" y="450" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

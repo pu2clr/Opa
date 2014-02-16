@@ -1,0 +1,42 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://soap.caratti.eti.br/">
+    <soap:Body>
+        <sendOpa>
+            <phoneNumber>+556181552286</phoneNumber>
+            <latitude>-100</latitude>
+            <longitude>100</longitude>
+            <serviceName>serviceName</serviceName>
+            <message>message.text</message>
+        </sendOpa>
+    </soap:Body>
+</soap:Envelope>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+    <S:Header/>
+    <S:Body>
+        <ns2:sendOpa xmlns:ns2="http://soap.caratti.eti.br/">
+            <phoneNumber>teste1</phoneNumber>
+            <latitude>teste1</latitude>
+            <longitude>teste1</longitude>
+            <serviceName>teste1</serviceName>
+            <message>teste1</message>
+        </ns2:sendOpa>
+    </S:Body>
+</S:Envelope>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://soap.caratti.eti.br/">
+    <soap:Body>
+        <sendOpa>
+            <phoneNumber>+556181552286</phoneNumber>
+            <latitude>-100</latitude>
+            <longitude>100</longitude>
+            <serviceName>serviceName</serviceName>
+            <message>message.text</message>
+        </sendOpa>
+    </soap:Body>
+</soap:Envelope>
+</root>
