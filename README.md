@@ -1,8 +1,15 @@
 Introdução
 
 Estes documento é a compilação de um estudo sobre desenvolvimento de aplicativos para dispositivos móveis com ênfase em soluções corporativas e serviços WEB. 
-Como resultado de minha análise, construí um sistema em três ambiente de desenvolvimento diferentes. Quais sejam: xcode (iOS), Eclipse (Android) e Titanium (iOS, Android entre outras plataformas)
+Como resultado de minha análise, construí um sistema em três ambiente de desenvolvimento diferentes. Quais sejam: xcode (iOS), Eclipse (Android) e Titanium (iOS, Android entre outras plataformas). Cada implementação está organizado em pastas neste repositório.
+
+  
 O sistema que desenvolvido, denominado "Opa!", simula um cenário de demandas de serviços pública onde os usuário de dispositivos móveis podem solicitar serviços de maneira ágil e precisa. Para tanto, o sistema "Opa!" faz uso dos recursos de localização, Internet e SMS disponíveis nos dispositivos móveis modernos, em especial iOS e Android.   
+
+Além das versões implementadas para dispositivos móveis, a parte cliente da solução, há duas versões da parte Administrativa do Sistema "Opa!" que é executada em um servidor WEB. A primeira foi escrita em Java utilizando o protocolo RESTFul e JSON para comunicação com os dispositivos móveis.  A segunda foi escrita em PHP com o Framework Zend e utiliza JSON para comunicação com os dispositivos móveis.
+Ambas fazem exatamente a mesma coisa e se comunicam com os mesmos aplicativos instalados nos dispositivos móveis. O objetivo aqui foi analisar robustez e facilidades técnicas existentes nesses plataformas.
+
+
 A seguir tem-se mais informação sobre o sistema "Opa!. 
  
 Contextualização
@@ -19,7 +26,7 @@ O que é o Opa! ?
 
 OPA! é um exemplo de sistema que ilustra a integração de dispositivos móveis com sistemas de âmbito corporativo ou serviços WEB.  As informações adquiridas para construção do Opa! permitem que o profissional de tecnologia da informação conheça técnicas para integrar funções de mobilidade a sistemas corporativos.   Isto é,  possibilitar que algumas funções de um ou mais sistemas de uma organização, até mesmo sistemas legados, sejam realizadas por dispositivos móveis. 
 
-Para tanto, o Opa! sugere ser um  sistema de utilidade pública que facilita o cidadão na aquisição ou contratação de serviços em geral.  A idei é que a aquisição ou contratação desses serviços sejam feitas da forma mais ágil e simples possível, bastando para tanto, realizar três ações em um dispositivo móvel. Quais sejam:  executar a aplicação Opa!, selecionar o  tipo de serviço desejado e clicar em enviar.
+Para tanto, o Opa! sugere ser um  sistema de utilidade pública que facilita o cidadão na aquisição ou contratação de serviços em geral.  A ideia é que a aquisição ou contratação desses serviços sejam feitas da forma mais ágil e simples possível, bastando para tanto, realizar três ações em um dispositivo móvel. Quais sejam:  executar a aplicação Opa!, selecionar o  tipo de serviço desejado e clicar em enviar.
  
 O que o Opa! se propõe a fazer?
 
@@ -28,15 +35,15 @@ Oferecer aos usuários de dispositivos móveis facilidades para solicitação ou
 
 Cenários:
 
-Imagine que você esteja andando no trânsito e presencia um acidente de carro. Via o seu celular, você poderá registrar esta ocorrência com o mínimo de esforço;  
+Imagine que você esteja andando no trânsito e presencia um acidente de carro. Via o seu celular, você poderá registrar esta ocorrência e comunicar isso a Polícia, Corpo de Bombeiros ou ainda a Defesa Civil com o mínimo de esforço;  
 
 Imagine que você está presenciando um assalto.  Com poucos cliques em seu celular você poderá registrar esta ocorrência;
 
-Seu carro resolve dar problema justamente em um local remoto e você não sabe informar com precisão a sua localização.  Um usuário de celular avançado faria algumas operações de localização,  procuraria em alguma lista alguém ou algum serviço que pudesse atender em sua localidade. Com o aplicativo Ops!!! isso poderá ser feito em três cliques.
+Seu carro resolve dar problema justamente em um local remoto e você não sabe informar com precisão a sua localização.  Um usuário de celular avançado faria algumas operações de localização,  procuraria em alguma lista alguém ou algum serviço que pudesse atender em sua localidade. Com o aplicativo "Opa!" isso poderá ser feito em três cliques.
 
 
-Você percebe que sua casa está sendo invadida e precisa acionar o serviço de segurança particular ou ainda a polícia? Com o Opa! Você poderá fazer isso silenciosamente e em menos de 15 segundos;  
+Você percebe que sua casa está sendo invadida e precisa acionar o serviço de segurança particular ou ainda a polícia? Com o "Opa! Você poderá fazer isso silenciosamente e em menos de 15 segundos;  
 
 Por alguma razão você necessita de um serviço de Taxi e não tem como localizar o prestador de serviço facilmente? O Opa!!! fará isso para você com apenas três cliques. 
 
-Você tomou todas e está sem condições de conduzir seu veículo?  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
+Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
