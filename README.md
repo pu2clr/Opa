@@ -34,8 +34,8 @@ Imagine que você está presenciando um assalto.  Com poucos cliques em seu celu
 Seu carro resolve dar problema justamente em um local remoto e você não sabe informar com precisão a sua localização.  Um usuário de celular avançado faria algumas operações de localização,  procuraria em alguma lista alguém ou algum serviço que pudesse atender em sua localidade. Com o aplicativo Ops!!! isso poderá ser feito em três cliques.
 
 
-Você percebe que sua casa está sendo invadida e precisa acionar o serviço de segurança particular ou ainda a polícia. Com o Opa! Você poderá fazer isso silenciosamente e em menos de 15 segundos;  
+Você percebe que sua casa está sendo invadida e precisa acionar o serviço de segurança particular ou ainda a polícia? Com o Opa! Você poderá fazer isso silenciosamente e em menos de 15 segundos;  
 
-Por alguma razão você necessita de um serviço de Taxi e não tem como localizar o prestador de serviço facilmente. O Opa!!! fará isso para você com apenas três cliques. 
+Por alguma razão você necessita de um serviço de Taxi e não tem como localizar o prestador de serviço facilmente? O Opa!!! fará isso para você com apenas três cliques. 
 
-Você tomou todas e está sem condições de conduzir seu veículo.  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
+Você tomou todas e está sem condições de conduzir seu veículo?  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
