@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:hint="Nome Completo"> 
+        
+        <requestFocus />
+    </EditText>
+             
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:hint="E-MAIL"
+        android:inputType="textEmailAddress" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/editTextDDD"
+            android:layout_width="111dp"
+            android:layout_height="fill_parent"
+            android:inputType="phone"
+            android:hint="DDD"
+            android:maxLength="2" android:textSize="14dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inputType="phone"
+            android:hint="No. do Celular"
+            android:maxLength="10" android:textSize="14dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <EditText
+            android:id="@+id/editTextDDD2"
+            android:layout_width="111dp"
+            android:layout_height="fill_parent"
+            android:inputType="phone"
+            android:hint="Confimação  do DDD"
+            android:maxLength="2" 
+            android:textSize="14dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextPhoneNumber2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:hint="Confirmação do No. do Celular"
+            android:maxLength="10" android:textSize="14dp"
+            android:inputType="phone" />
+
+    </TableRow>
+        
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="handleClick"
+        android:text="@string/enviar" />
+
+</LinearLayout>

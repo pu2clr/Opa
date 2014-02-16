@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView android:id="@+id/labelTypedCode" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="Informe o código de ativação " />    
+    <EditText
+        android:id="@+id/editTextTypedCode"
+        android:layout_width="fill_parent"
+        android:inputType="phone"
+        android:layout_height="wrap_content">
+        <requestFocus />
+        
+    </EditText>
+
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/enviar" 
+        android:onClick="handleClick"
+        />
+
+    
+</LinearLayout>

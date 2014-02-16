@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/labelMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mensagem: " />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false" >
+
+        <ImageButton
+            android:id="@+id/ibAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:onClick="handleAudio"
+            android:src="@drawable/ico_audio" />
+
+        <ImageButton
+            android:id="@+id/ibVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="handleVideo"
+            android:src="@drawable/ico_filmagem" />
+
+        <Button
+            android:id="@+id/btEnviar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:onClick="handleClick"
+            android:text="@string/enviar" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/previewphoto"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    ￼￼￼
+</LinearLayout>

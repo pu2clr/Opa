@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Opa!</string>
+    <string name="app_request">Solicitação</string>
+    <string name="device_register">Registro do Dispositivo</string>
+    <string name="device_confirmation">Ativação do Dispositivo</string>
+    <string name="enviar">Enviar</string>
+    <string name="proximo">Proximo</string>
+    <string name="video_capture">Vídeo</string>
+</resources>
