@@ -14,6 +14,8 @@ A seguir tem-se mais informação sobre o sistema "Opa!.
 
 
  
+ 
+ 
 Contextualização
 
 
@@ -23,6 +25,8 @@ Dispositivos móveis vem com um conjunto de componentes de interface que facilit
 Então que tal juntar essas duas tecnologias?  Isto é, obter os benefícios da mobilidade com a robustez na Internet? 
 
 Para avaliar esta demanda, foi desenvolvido um pequeno sistema que utiliza dispositivos móveis baseados nos sistemas operacionais iOS (Apple) e Android (Google).  Para representar o lado corporativo ou de serviços WEB, foi desenvolvido um sistema em PHP que executa algumas funções que serão descritas a seguir.
+ 
+ 
   
 
 O que é o Opa! ?
@@ -35,6 +39,7 @@ Para tanto, o Opa! sugere ser um  sistema de utilidade pública que facilita o c
 O que o Opa! se propõe a fazer?
 
 Oferecer aos usuários de dispositivos móveis facilidades para solicitação ou aquisição de serviços de utilidade pública como: Polícia, Bombeiros, SAMU, Ambulância Particular, Taxi,  Reboque, Atendimento mecânico entre outros que podem ser incorporados dinamicamente ao sistema Opa! por demanda.
+
 
 
 
@@ -53,6 +58,8 @@ Você percebe que sua casa está sendo invadida e precisa acionar o serviço de 
 Por alguma razão você necessita de um serviço de Taxi e não tem como localizar o prestador de serviço facilmente? O Opa!!! fará isso para você com apenas três cliques. 
 
 Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
+
+
 
 
 
