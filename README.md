@@ -1,8 +1,9 @@
 Introdução
 
-Estes documento é a compilação de um estudo sobre desenvolvimento de aplicativos ara dispositivos móveis com ênfase em soluções corporativas e serviços WEB. 
-
-
+Estes documento é a compilação de um estudo sobre desenvolvimento de aplicativos para dispositivos móveis com ênfase em soluções corporativas e serviços WEB. 
+Como resultado de minha análise, construí um sistema em três ambiente de desenvolvimento diferentes. Quais sejam: xcode (iOS), Eclipse (Android) e Titanium (iOS, Android entre outras plataformas)
+O sistema que desenvolvido, denominado "Opa!", simula um cenário de demandas de serviços pública onde os usuário de dispositivos móveis podem solicitar serviços de maneira ágil e precisa. Para tanto, o sistema "Opa!" faz uso dos recursos de localização, Internet e SMS disponíveis nos dispositivos móveis modernos, em especial iOS e Android.   
+A seguir tem-se mais informação sobre o sistema "Opa!. 
  
 Contextualização
 
