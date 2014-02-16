@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4F322AC-DB0F-45FF-A417-9C0187B90EB6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Opa</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B5EB094F-2F81-400F-A859-B7A13E7A70C7</key>
+		<string>svn://caratti.info/caratti/desenvolvimento/Multiplataforma/Ops/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Opa/Opa.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B5EB094F-2F81-400F-A859-B7A13E7A70C7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>B5EB094F-2F81-400F-A859-B7A13E7A70C7</key>
+		<string>svn://caratti.info/caratti/desenvolvimento</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://caratti.info/caratti/desenvolvimento/Multiplataforma/Ops/IOS/Opa/Opa.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B5EB094F-2F81-400F-A859-B7A13E7A70C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B5EB094F-2F81-400F-A859-B7A13E7A70C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
