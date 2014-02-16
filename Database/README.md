@@ -4,4 +4,6 @@ No entanto, atende perfeitamente ao propósito deste projeto.
 Não houve preocupação por parte do autor (Ricardo Lima Caratti) em implementar integridade referencial declarativa. 
 Também não houve preocupação em padronização de nomes de campos.
 
+Contudo, nenhuma dessas faltas comprometem o objetivo do projeto.
+
  
