@@ -11,8 +11,11 @@ Ambas fazem exatamente a mesma coisa e se comunicam com os mesmos aplicativos in
 
 
 A seguir tem-se mais informação sobre o sistema "Opa!. 
+
+
  
 Contextualização
+
 
 Os dispositivos móveis modernos como iPhone, iPad, celulares e tablets baseados em Android entre outros sistemas operacionais, possuem razoável capacidade de processamento  e excelente conectividade com o mundo exterior. Com isso, é possível executar programas complexos como navegadores WEB, acessar a maioria dos sites disponíveis na Internet e executar várias transações que até há pouco tempo só eram possíveis em computadores pessoais.  No entanto, em ambientes empresariais, utilizar aplicações desenvolvidas especificamente para Web em dispositivos móveis nem sempre é a melhor solução.  Isso porque nem todas as funções de um sistema corporativos são realizadas via WEB, seja por motivo de tecnologia (sistemas legados), por razões de segurança ou mesmo por não ser uma abordagem desejável para a empresa. 
 
@@ -24,6 +27,7 @@ Para avaliar esta demanda, foi desenvolvido um pequeno sistema que utiliza dispo
 
 O que é o Opa! ?
 
+
 OPA! é um exemplo de sistema que ilustra a integração de dispositivos móveis com sistemas de âmbito corporativo ou serviços WEB.  As informações adquiridas para construção do Opa! permitem que o profissional de tecnologia da informação conheça técnicas para integrar funções de mobilidade a sistemas corporativos.   Isto é,  possibilitar que algumas funções de um ou mais sistemas de uma organização, até mesmo sistemas legados, sejam realizadas por dispositivos móveis. 
 
 Para tanto, o Opa! sugere ser um  sistema de utilidade pública que facilita o cidadão na aquisição ou contratação de serviços em geral.  A ideia é que a aquisição ou contratação desses serviços sejam feitas da forma mais ágil e simples possível, bastando para tanto, realizar três ações em um dispositivo móvel. Quais sejam:  executar a aplicação Opa!, selecionar o  tipo de serviço desejado e clicar em enviar.
@@ -33,7 +37,9 @@ O que o Opa! se propõe a fazer?
 Oferecer aos usuários de dispositivos móveis facilidades para solicitação ou aquisição de serviços de utilidade pública como: Polícia, Bombeiros, SAMU, Ambulância Particular, Taxi,  Reboque, Atendimento mecânico entre outros que podem ser incorporados dinamicamente ao sistema Opa! por demanda.
 
 
+
 Cenários:
+
 
 Imagine que você esteja andando no trânsito e presencia um acidente de carro. Via o seu celular, você poderá registrar esta ocorrência e comunicar isso a Polícia, Corpo de Bombeiros ou ainda a Defesa Civil com o mínimo de esforço;  
 
@@ -50,7 +56,10 @@ Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ai
 
 
 
+
 Estruturas pastas (diretórios) desse Repositório
+
+
 
 Android - Contem a implementação do aplicativo "Opa!" para o sistema operacional Android (Escrita em Java) 
 
