@@ -1,3 +1,5 @@
+Opa! Open Source Project (Licença Apache 2.0 - http://www.apache.org/licenses/LICENSE-2.0)
+
 Introdução
 
 Estes documento é a compilação de um estudo sobre desenvolvimento de aplicativos para dispositivos móveis com ênfase em soluções corporativas e serviços WEB. 
@@ -13,7 +15,6 @@ Ambas fazem exatamente a mesma coisa e se comunicam com os mesmos aplicativos in
 A seguir tem-se mais informação sobre o sistema "Opa!. 
 
 
- 
  
  
 Contextualização
@@ -61,9 +62,6 @@ Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ai
 
 
 
-
-
-
 Estruturas pastas (diretórios) desse Repositório
 
 
@@ -77,6 +75,23 @@ iOS - Contém a implementação do "Opa!" para versão iOS (Escrita em Objective
 OpsAdmin - Contém a implementação do lado Servidor (Backend) do "Opa!" escrita em PHP
 
 Titanium - Contém a implementação do Opa! para iOS e Android escrita em JavaScript.
+
+
+
+*****************************************************************************************************
+
+Copyright (C) 2011 The Opa! Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 
 
 
