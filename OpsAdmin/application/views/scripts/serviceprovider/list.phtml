@@ -1,0 +1,56 @@
+<?php /* application/views/scripts/users/list.phtml */ ?>
+ 
+<h1>Lista de Prestadores de Serviço</h1>
+ 
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'serviceprovider',
+    'action'     => 'create')); ?>" title="Novo Prestador de Serviço">Incluir novo prestador de serviço</a>
+</p>
+ 
+<table cellspacing="1" cellpadding="1" border="1" width="500">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Serviço</th>
+            <th>Fornecedor</th>
+            <th>Email</th>
+            <th>DDD</th>
+            <th>Número do SMS</th>
+            <th>Envio de SMS</th>
+            <th>Envio de Email</th>
+            <th>Ocupado?</th>
+            <th>Pode ficar Ocupado?</th>
+            <th>Status</th>
+        </tr>
+     </thead>
+     <tbody>
+        <?php foreach ( $this->serviceproviders as $serviceprovider ) : ?>
+            <tr>
+                <td><?php echo $serviceprovider->service_provider_id; ?></td>
+                <td><?php echo $serviceprovider->service_name; ?></td>                
+                <td><?php echo $this->escape($serviceprovider->name); ?></td>
+                <td><?php echo $this->escape($serviceprovider->email); ?></td>
+                <td><?php echo $this->escape($serviceprovider->sms_ddd); ?></td>  
+                <td><?php echo $this->escape($serviceprovider->sms_number); ?></td>  
+                <td><?php echo $this->escape($serviceprovider->send_sms); ?></td>
+                <td><?php echo $this->escape($serviceprovider->send_email); ?></td>
+                <td><?php echo $this->escape($serviceprovider->busy); ?></td>
+                <td><?php echo $this->escape($serviceprovider->can_be_busy); ?></td>
+                <td><?php echo $this->escape($serviceprovider->status); ?></td>
+                <td>
+                   <a href=<?php echo "serviceprovider/update/service_provider_id/$serviceprovider->service_provider_id" ?> >Editar</a>
+                </td>
+                <td>
+                   <a href=<?php echo "serviceprovider/remove/service_provider_id/$serviceprovider->service_provider_id" ?> >Ecluir</a>
+                </td>                
+            </tr>
+        <?php endforeach; ?>
+     </tbody>
+</table>
+
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'serviceprovider',
+    'action'     => 'create')); ?>" title="Novo Prestador de Serviço">Incluir novo prestador de serviço</a>
+</p>

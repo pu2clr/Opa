@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <base href="<?php echo $this->serverUrl() . $this->baseUrl() ?>/" />
+        <?php echo $this->headTitle('Opa!!!') ?>
+        <?php
+        // $this->headScript()->appendFile('algum_javascript.js');
+        $this->headLink()->prependStylesheet('css/opa.css')
+                         ->prependStylesheet('css/bootstrap.css');
+        $this->headMeta()->appendHttpEquiv('Content-Type', 'text/html; charset=UTF-8')
+                ->appendHttpEquiv('Content-Language', 'pt_BR');
+        
+        echo $this->headMeta();
+        echo $this->headScript();
+        echo $this->headLink();
+        
+        ?>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                <img src="images/opa.gif" />
+            </div>
+            <div id="menu">
+                <a href="#">HOME</a>
+                <a href="service/list">Serviços</a>
+                <a href="serviceprovider/list">Prestadores de Serviço</a>
+                <a href="device/list">Dispositivos</a>
+            </div>
+        </div>
+        <div id="content">
+            <?php echo $this->layout()->content ?>
+        </div>
+        <div id="footer">
+            <p>
+                Leia <a href="http://framework.zend.com/">
+                  nossos termos e condições de uso</a>. 
+            </p>
+        </div>
+    </body>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<?php /* application/views/scripts/users/edit.phtml */ ?>
+ 
+<h1>Edição do Prestador de Serviço</h1>
+ 
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'serviceprovider',
+    'action'     => 'list')); ?>" title="Listar de Prestadores de Serviço">Lista de Prestadores de Serviço</a>
+</p>
+ 
+<?php if ( isset($this->message) ) echo $this->message; ?>
+ 
+<?php if ( isset($this->form) ) : ?>
+    <?php echo $this->form; ?>
+<?php endif; ?>

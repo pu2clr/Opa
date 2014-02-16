@@ -1,0 +1,27 @@
+<?php /* application/views/scripts/users/list.phtml */ ?>
+
+
+
+<h1>Solicitação</h1>
+<br>Hora da Solicitação: <?php echo $this->occurrence['datetime']; ?> <br> 
+<br>Solicitante........: <?php echo $this->device['user_name']; ?>
+<br>Telefone de contato: <?php echo $this->device['phone_number']; ?>
+<br>
+<br>
+<?php if ( $this->service_provider['can_be_busy'] == 1) { ?>   
+   <a href="http://ec2-174-129-183-10.compute-1.amazonaws.com/OpsAdmin/public/oparest/unlockprovider/serviceProviderId/<?php echo $this->occurrence['service_provider_id']; ?> ">Clique aqui para informar que esta solicitação já foi atendida</a>  
+<?php } ?> 
+<br>
+
+<?php 
+  if ($this->occurrence['media_type'] != 0 ) { ?>
+<div id="image_user_uploaded">
+    <img src="<?php echo "uploads/" . $this->occurrence['file_name'];?>"  />
+</div>
+<?php } ?>
+
+<p>
+  Mensagem: <?php echo $this->occurrence['message']; ?> 
+</p>
+<br>Localização.: <?php echo '('. $this->occurrence['latitude'] . ', '. $this->occurrence['longitude'] . ')'; ?>  
+

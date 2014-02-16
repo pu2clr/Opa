@@ -1,0 +1,41 @@
+div { 
+    border: 1px solid black;
+    padding: 1px; 
+}
+
+body, html {
+    margin: 0 5px;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 1.4em;
+    color: blue;
+    background-color: burlywood;
+    
+}
+
+a {
+    color: mediumblue;
+}
+
+table { margin: 1em; border-collapse: collapse;width:95%; }
+td, th { padding: .3em; border: 1px #ccc solid; } 
+
+
+
+form dt {
+    width: 200px;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+from dd {
+    margin-left: 0;
+    float: left;
+}
+
+form #submitbutton {
+    margin-left: 200px;
+}

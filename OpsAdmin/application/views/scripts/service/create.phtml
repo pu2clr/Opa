@@ -1,0 +1,13 @@
+<?php /* application/views/scripts/users/create.phtml */ ?>
+ 
+<h1>Cadastro de Serviço</h1>
+ 
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'service',
+    'action'     => 'list')); ?>" title="Serviço">Lista de Serviço</a>
+</p>
+ 
+<?php if ( isset($this->message) ) echo $this->message; ?>
+ 
+<?php echo $this->form; ?>

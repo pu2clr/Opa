@@ -1,0 +1,13 @@
+<?php  ?>
+ 
+<h1>Cadastro de Dispositivos</h1>
+ 
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'device',
+    'action'     => 'list')); ?>" title="Dispositivos">Lista de Dispositivos</a>
+</p>
+ 
+<?php if ( isset($this->message) ) echo $this->message; ?>
+ 
+<?php echo $this->form; ?>

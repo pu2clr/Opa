@@ -1,0 +1,51 @@
+<?php /* application/views/scripts/users/list.phtml */ ?>
+ 
+<h1>Lista de Dispositivos</h1>
+ 
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'device',
+    'action'     => 'create')); ?>" title="Novo Dispositivo">Incluir novo Dispositivo</a>
+</p>
+ 
+<table cellspacing="1" cellpadding="1" border="1" width="500">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Sistema</th>
+            <th>Versão</th>            
+            <th>Nome</th>
+            <th>Usuário</th> 
+            <th>Email</th>
+            <th>DDD</th>
+            <th>Celular</th>            
+        </tr>
+     </thead>
+     <tbody>
+        <?php foreach ( $this->devices as $device ) : ?>
+            <tr>
+                <td><?php echo $this->escape($device->device_id); ?></td>    
+                <td><?php echo $this->escape($device->os_name); ?></td>
+                <td><?php echo $this->escape($device->os_version); ?></td>
+                <td><?php echo $this->escape($device->device_name); ?></td>
+                <td><?php echo $this->escape($device->user_name); ?></td>
+                <td><?php echo $this->escape($device->email); ?></td>  
+                <td><?php echo $this->escape($device->phone_ddd); ?></td>  
+                <td><?php echo $this->escape($device->phone_number); ?></td>                  
+                <td>
+                    
+                   <a href=<?php echo "device/update/device_id/$device->device_id" ?> >Editar</a>
+                </td>
+                <td>
+                   <a href=<?php echo "device/remove/device_id/$device->device_id" ?> >Ecluir</a>
+                </td>                
+            </tr>
+        <?php endforeach; ?>
+     </tbody>
+</table>
+
+<p>
+<a href="<?php echo $this->url(array(
+    'controller' => 'device',
+    'action'     => 'create')); ?>" title="Novo Dispositivo">Incluir novo Dispositivo</a>
+</p>
