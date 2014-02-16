@@ -47,3 +47,17 @@ Você percebe que sua casa está sendo invadida e precisa acionar o serviço de 
 Por alguma razão você necessita de um serviço de Taxi e não tem como localizar o prestador de serviço facilmente? O Opa!!! fará isso para você com apenas três cliques. 
 
 Você bebeu todas e está sem condições de conduzir seu veículo?  Se você ainda estiver em  condições de dar três cliques em seu celular, poderá solicitar o serviço que o ajudará achegar em casa com segurança;
+
+
+
+Estruturas pastas (diretórios) desse Repositório
+
+Android - Contem a implementação do aplicativo "Opa!" para o sistema operacional Android (Escrita em Java) 
+Docs - Contém documentação sobre o Aplicativo Opa! além de Screenshots em iOS e Android
+iOS - Contém a implementação do "Opa!" para versão iOS (Escrita em Objective C)
+OpsAdmin - Contém a implementação do lado Servidor (Backend) do "Opa!" escrita em PHP
+Titanium - Contém a implementação do Opa! para iOS e Android escrita em JavaScript.
+
+
+
+
