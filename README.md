@@ -1,5 +1,7 @@
 Opa! Open Source Project (Licença Apache 2.0 - http://www.apache.org/licenses/LICENSE-2.0)
 
+
+
 Introdução
 
 Estes documento é a compilação de um estudo sobre desenvolvimento de aplicativos para dispositivos móveis com ênfase em soluções corporativas e serviços WEB. 
