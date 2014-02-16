@@ -6,7 +6,7 @@ Estes documento é a compilação de um estudo sobre desenvolvimento de aplicati
 Como resultado de minha análise, construí um sistema em três ambiente de desenvolvimento diferentes. Quais sejam: xcode (iOS), Eclipse (Android) e Titanium (iOS, Android entre outras plataformas). Cada implementação está organizado em pastas neste repositório.
 
   
-O sistema que desenvolvido, denominado "Opa!", simula um cenário de demandas de serviços pública onde os usuário de dispositivos móveis podem solicitar serviços de maneira ágil e precisa. Para tanto, o sistema "Opa!" faz uso dos recursos de localização, Internet e SMS disponíveis nos dispositivos móveis modernos, em especial iOS e Android.   
+O sistema que desenvolvi, denominado "Opa!", simula um cenário de demandas de serviços pública onde os usuário de dispositivos móveis podem solicitar serviços de maneira ágil e precisa. Para tanto, o sistema "Opa!" faz uso dos recursos de localização, Internet e SMS disponíveis nos dispositivos móveis modernos, em especial iOS e Android.   
 
 Além das versões implementadas para dispositivos móveis, a parte cliente da solução, há duas versões da parte Administrativa do Sistema "Opa!" que é executada em um servidor WEB. A primeira foi escrita em Java utilizando o protocolo RESTFul e JSON para comunicação com os dispositivos móveis.  A segunda foi escrita em PHP com o Framework Zend e utiliza JSON para comunicação com os dispositivos móveis.
 Ambas fazem exatamente a mesma coisa e se comunicam com os mesmos aplicativos instalados nos dispositivos móveis. O objetivo aqui foi analisar robustez e facilidades técnicas existentes nesses plataformas.
