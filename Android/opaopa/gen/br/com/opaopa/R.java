@@ -54,6 +54,7 @@ public final class R {
         public static final int device_register=0x7f040002;
         public static final int enviar=0x7f040004;
         public static final int proximo=0x7f040005;
+        public static final int test=0x7f040007;
         public static final int video_capture=0x7f040006;
     }
     public static final class style {

@@ -18,14 +18,11 @@
         
     </EditText>
 
-
     <Button
         android:id="@+id/buttonRegister"
         android:layout_width="144dp"
         android:layout_height="wrap_content"
-        android:text="@string/enviar" 
         android:onClick="handleClick"
-        />
-
+        android:text="@string/enviar" />
     
 </LinearLayout>
